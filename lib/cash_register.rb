@@ -21,8 +21,6 @@ class CashRegister
     @price = price
     @total += (price*quantity)
     @@total << @total
-
-
   end
 
   def void_last_transaction
